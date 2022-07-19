@@ -18,3 +18,11 @@ __author__ = "Nome do Autor"
 __license__ = "Licenciado ou Licença Livre"
 
 
+import sys
+
+print(sys.argv)
+#print(sys.platform)
+
+'''with open("teste.txt", "r") as arquivo:
+    teste = arquivo.read()
+print(teste)'''
